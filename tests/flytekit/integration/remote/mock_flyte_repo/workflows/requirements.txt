@@ -156,6 +156,8 @@ importlib-metadata==6.8.0
     # via
     #   flytekit
     #   keyring
+importlib-resources==6.4.0
+    # via matplotlib
 isodate==0.6.1
     # via azure-storage-blob
 jaraco-classes==3.3.0
@@ -232,7 +234,7 @@ packaging==23.1
     #   matplotlib
 pandas==1.5.3
     # via flytekit
-pillow==10.0.0
+pillow==10.3.0
     # via matplotlib
 portalocker==2.7.0
     # via msal-extensions
@@ -258,7 +260,9 @@ pycparser==2.21
 pygments==2.15.1
     # via rich
 pyjwt[crypto]==2.8.0
-    # via msal
+    # via
+    #   msal
+    #   pyjwt
 pyopenssl==23.2.0
     # via flytekit
 pyparsing==3.0.9
@@ -282,7 +286,7 @@ pytz==2023.3
     # via
     #   flytekit
     #   pandas
-pyyaml==6.0.1
+pyyaml==5.4.1
     # via
     #   cookiecutter
     #   flytekit
@@ -342,6 +346,7 @@ types-pyyaml==6.0.12.11
     # via responses
 typing-extensions==4.7.1
     # via
+    #   aioitertools
     #   azure-core
     #   azure-storage-blob
     #   flytekit
@@ -373,4 +378,6 @@ wrapt==1.15.0
 yarl==1.9.2
     # via aiohttp
 zipp==3.16.2
-    # via importlib-metadata
+    # via
+    #   importlib-metadata
+    #   importlib-resources
